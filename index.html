@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paint Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Paint Calculator</h1>
+    <form id="paintForm">
+      <div class="form-group">
+        <label for="shape">Wall Shape</label>
+        <select id="shape" required>
+          <option value="" disabled selected>Select shape</option>
+          <option value="square">Square/Rectangle</option>
+          <option value="triangle">Triangle</option>
+          <option value="circle">Circle</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="unit">Unit of Measurement</label>
+        <select id="unit" required>
+          <option value="meters" selected>Meters</option>
+          <option value="feet">Feet</option>
+        </select>
+      </div>
+      <div id="dimensions"></div>
+      <div class="form-group">
+        <label for="color">Paint Color</label>
+        <select id="color" required>
+          <option value="" disabled selected>Select color</option>
+          <option value="emerald green">Emerald Green</option>
+          <option value="sky blue">Sky Blue</option>
+          <option value="sunset orange">Sunset Orange</option>
+          <option value="charcoal gray">Charcoal Gray</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="coats">Number of Coats</label>
+        <select id="coats" required>
+          <option value="" disabled selected>Select number of coats</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="brand">Paint Brand</label>
+        <select id="brand" required>
+          <option value="" disabled selected>Select brand</option>
+          <option value="sherwin williams">Sherwin Williams</option>
+          <option value="behr">Behr</option>
+          <option value="valspar">Valspar</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="rooms">Number of Rooms</label>
+        <select id="rooms" required>
+          <option value="" disabled selected>Select number of rooms</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+      <div class="buttons-container">
+        <button type="submit">Calculate</button>
+        <button type="button" id="resetButton">Reset</button>
+      </div>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
